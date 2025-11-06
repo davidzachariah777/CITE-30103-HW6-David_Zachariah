@@ -1,0 +1,8 @@
+int 1value = 10;
+-> Cannot have a variable name beginning with a number/digit
+
+float avg-rate = 12.5; 
+-> Cannot have a variable name with a dash
+
+char Class = 'A';
+-> Cannot have a variable name that already exists as a keyword within the programming language
