@@ -1,0 +1,3 @@
+Global Variable Scope - variable able to be accessed/modified anywhere in the program
+
+Local Variable Scope - variable able to be accessed/modified only within the specific function/loop/statement the variable is inside and won't be able to be accessed/modified outside of that.
