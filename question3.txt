@@ -1,0 +1,1 @@
+If #include <stdio.h> is removed, the compilation step will fail because the compiler won't know the declaration of printf. The error message will be "implicit declaration of 'printf' [Wimplicit-function-declaration]"
