@@ -1,0 +1,14 @@
+1. Preprocessing: implementing the #include <stdio.h> statement at the top of the C program
+> Possible Error: Forgetting to include <stdio.h>
+
+2. Compilation: compiling the code: gcc -c filename.c
+> Possible Error: Errors within the code (like syntax errors) that prevent the code from compiling
+
+3. Assembly: converting the code into a form the computer can understand: gcc filename.o -o executefilename
+> Possible Error: Mistyping the command/messing up the order
+
+4. Linking: Brings everything together into an executable program 
+> Possible Error: Issues within the individual pieces preventing the collective from linking properly
+
+5. Loading: Executing the program itself: ./filename
+> Possible Error: Trying to execute a non-executable file
