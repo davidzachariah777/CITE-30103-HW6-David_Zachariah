@@ -1,0 +1,1 @@
+The developer wrote a+b << 1, which gets res = 16 (due to the '+' operator having higher precedence). In order to get res = 11, the developer could either include parenthesis to make the equation a+(b<<1) or change the '<<1' to '*2' (which does the same thing as <<1, but has higher precendence than addition). Both alternatives would get res = 11. 
